@@ -120,18 +120,8 @@ public class MyArray<T> implements MyArrayInterface<T> {
 			@SuppressWarnings("unchecked")
 			MyArray<T> t = (MyArray<T>) obj;
 			
-			if ((t.count == this.count)) {
-				for (int i=0; i<this.array.length; i++){
-					if(t.getElement(i) == this.getElement(i)){
-						answer = true;
-					}else{
-						answer = false;
-					}
-				}
-						
-				
-			} else {
-				answer = false;
+			if ((t.count == this.count) && (t.getElement(count) == this.getElement(count))) {
+				answer = true;
 			}
 		}
 		
