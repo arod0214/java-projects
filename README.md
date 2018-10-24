@@ -1,4 +1,4 @@
-# java_intro_projects
+# Java Intro Projects
 Assignments completed during CMP 326 Programming Methods II course at CUNY Lehman College
 
 Some of these projects were homework assignments, like "Arrays using Interfaces", "Connect4", 
